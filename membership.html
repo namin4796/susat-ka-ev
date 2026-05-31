@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Sugam Sanskrutik Troupe e.V.</title>
+    <title>Membership - Sugam Sanskrutik Troupe e.V.</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
     <nav class="bg-white shadow-md sticky top-0 z-50">
-        <!-- EXACT SAME NAV CONTENT AS index.html -->
+        <!-- NAV CONTENT -->
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0 flex items-center">
@@ -18,9 +18,9 @@
                 </div>
                 <div class="hidden md:flex space-x-8 font-medium">
                     <a href="index.html" class="text-gray-600 hover:text-amber-600 transition">Home</a>
-                    <a href="about.html" class="text-amber-600 transition">About Us</a>
+                    <a href="about.html" class="text-gray-600 hover:text-amber-600 transition">About Us</a>
                     <a href="events.html" class="text-gray-600 hover:text-amber-600 transition">Events</a>
-                    <a href="membership.html" class="text-gray-600 hover:text-amber-600 transition">Membership</a>
+                    <a href="membership.html" class="text-amber-600 transition">Membership</a>
                     <a href="contact.html" class="text-gray-600 hover:text-amber-600 transition">Contact</a>
                 </div>
                 <div class="md:hidden flex items-center">
@@ -30,32 +30,33 @@
         </div>
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-4 space-y-2">
             <a href="index.html" class="block text-gray-600 hover:text-amber-600 py-2">Home</a>
-            <a href="about.html" class="block text-amber-600 py-2">About Us</a>
+            <a href="about.html" class="block text-gray-600 hover:text-amber-600 py-2">About Us</a>
             <a href="events.html" class="block text-gray-600 hover:text-amber-600 py-2">Events</a>
-            <a href="membership.html" class="block text-gray-600 hover:text-amber-600 py-2">Membership</a>
+            <a href="membership.html" class="block text-amber-600 py-2">Membership</a>
             <a href="contact.html" class="block text-gray-600 hover:text-amber-600 py-2">Contact</a>
         </div>
     </nav>
 
     <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full">
-        <section class="py-8">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About Our Association</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                    <div class="text-amber-500 text-4xl mb-4"><i class="fa-solid fa-heart"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Our Mission</h3>
-                    <p class="text-gray-600">We volunteer for cultural projects and community cohesion in the Karlsruhe region.</p>
+        <section class="py-8 bg-orange-50 rounded-2xl p-8 md:p-12 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-gray-900">Become a Member</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8">Our work is made possible by people like you. Support us as an active member or a sponsoring member.</p>
+            <div class="inline-flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-amber-100 w-64">
+                    <span class="block text-sm text-gray-500 uppercase">Regular</span>
+                    <span class="text-3xl font-bold text-gray-900">12 €</span>
+                    <span class="text-gray-500 text-sm">/ Year</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                    <div class="text-amber-500 text-4xl mb-4"><i class="fa-solid fa-bullseye"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Our Goals</h3>
-                    <p class="text-gray-600">Through regular events and workshops, we aim to share Indian culture and create sustainable change.</p>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-amber-100 w-64">
+                    <span class="block text-sm text-gray-500 uppercase">Reduced</span>
+                    <span class="text-3xl font-bold text-gray-900">6 €</span>
+                    <span class="text-gray-500 text-sm">/ Year</span>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                    <div class="text-amber-500 text-4xl mb-4"><i class="fa-solid fa-hands-holding-child"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Community</h3>
-                    <p class="text-gray-600">Regardless of age or origin – everyone finds a place and a listening ear with us.</p>
-                </div>
+            </div>
+            <div class="mt-8">
+                <a href="antrag.pdf" download class="bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-amber-700 transition inline-block">
+                    <i class="fa-solid fa-file-pdf mr-2"></i>Download Membership Form (PDF)
+                </a>
             </div>
         </section>
     </main>
