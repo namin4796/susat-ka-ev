@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugam Sanskrutik Troupe e.V. - Moving Forward Together</title>
+    <!-- Tailwind CSS for modern, responsive styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for clean icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
+    <!-- NAVIGATION BAR -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
+                <!-- Logo / Name -->
                 <div class="flex-shrink-0 flex items-center">
                     <span class="text-xl font-bold text-amber-600"><i class="fa-solid fa-users mr-2"></i>Sugam Sanskrutik Troupe e.V.</span>
                 </div>
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 font-medium">
-                    <a href="index.html" class="text-gray-600 hover:text-amber-600 transition">Home</a>
+                    <a href="index.html" class="text-amber-600 transition">Home</a>
                     <a href="about.html" class="text-gray-600 hover:text-amber-600 transition">About Us</a>
                     <a href="events.html" class="text-gray-600 hover:text-amber-600 transition">Events</a>
                     <a href="membership.html" class="text-gray-600 hover:text-amber-600 transition">Membership</a>
                     <a href="contact.html" class="text-gray-600 hover:text-amber-600 transition">Contact</a>
                 </div>
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="text-gray-600 hover:text-amber-600 focus:outline-none">
                         <i class="fa-solid fa-bars text-2xl"></i>
@@ -29,8 +35,9 @@
                 </div>
             </div>
         </div>
+        <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-4 space-y-2">
-            <a href="index.html" class="block text-gray-600 hover:text-amber-600 py-2">Home</a>
+            <a href="index.html" class="block text-amber-600 py-2">Home</a>
             <a href="about.html" class="block text-gray-600 hover:text-amber-600 py-2">About Us</a>
             <a href="events.html" class="block text-gray-600 hover:text-amber-600 py-2">Events</a>
             <a href="membership.html" class="block text-gray-600 hover:text-amber-600 py-2">Membership</a>
@@ -38,20 +45,58 @@
         </div>
     </nav>
 
-    <header class="bg-[linear-gradient(to_right,#FF9933,#FFFFFF,#138808,#000000,#DD0000,#FFCC00)] md:py-24 py-16 px-4 text-center flex-grow" style="text-shadow: 1px 1px 5px rgba(0,0,0,0.8);">
+    <!-- HERO SECTION (Elegant Blend) -->
+    <header class="bg-gradient-to-r from-[#FDE6A9] to-[#F1C576] md:py-24 py-16 px-4 text-center">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Moving Forward Together.</h1>
-            <p class="text-lg md:text-xl text-amber-100 mb-8">Welcome to Sugam Sanskrutik Troupe e.V. We celebrate Indian culture, foster community integration, and build cultural bridges in Karlsruhe.</p>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">Moving Forward Together.</h1>
+            <p class="text-lg md:text-xl text-gray-700 mb-8">Welcome to Sugam Sanskrutik Troupe e.V. We celebrate Indian culture, foster community integration, and build cultural bridges in Karlsruhe.</p>
             <div class="space-x-4">
-                <a href="membership.html" class="bg-black text-[#FFCC00] font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-800 transition inline-block" style="text-shadow: none;">Join Us</a>
-                <a href="about.html" class="bg-[#FF9933] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#e68a2e] transition inline-block" style="text-shadow: none;">Learn More</a>
+                <a href="membership.html" class="bg-black text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-800 transition inline-block">Join Us</a>
+                <a href="about.html" class="bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-amber-700 transition inline-block">Learn More</a>
             </div>
         </div>
     </header>
 
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full">
+
+        <!-- GALLERY SECTION (Added Section) -->
+        <section class="py-12">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Event Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Placeholder Gallery Items - Update with your images -->
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://via.placeholder.com/600x400.png?text=Past+Event+1" alt="Past Event 1" class="rounded-md w-full h-auto">
+                </div>
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://via.placeholder.com/600x400.png?text=Past+Event+2" alt="Past Event 2" class="rounded-md w-full h-auto">
+                </div>
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://via.placeholder.com/600x400.png?text=Past+Event+3" alt="Past Event 3" class="rounded-md w-full h-auto">
+                </div>
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://via.placeholder.com/600x400.png?text=Past+Event+4" alt="Past Event 4" class="rounded-md w-full h-auto">
+                </div>
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://via.placeholder.com/600x400.png?text=Past+Event+5" alt="Past Event 5" class="rounded-md w-full h-auto">
+                </div>
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-2 transform hover:scale-105 transition-transform duration-300">
+                    <video controls class="rounded-md w-full h-auto">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
     <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-sm mt-auto">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div>&copy; 2026 Sugam Sanskrutik Troupe e.V. All rights reserved.</div>
+            <div>
+                &copy; 2026 Sugam Sanskrutik Troupe e.V. All rights reserved.
+            </div>
             <div class="flex space-x-6">
                 <button onclick="toggleModal('impressum-modal')" class="hover:text-white transition">Imprint</button>
                 <button onclick="toggleModal('datenschutz-modal')" class="hover:text-white transition">Privacy Policy</button>
@@ -59,29 +104,53 @@
         </div>
     </footer>
 
-    <!-- MODALS -->
+    <!-- IMPRESSUM MODAL (POPUP) -->
     <div id="impressum-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
             <button onclick="toggleModal('impressum-modal')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4 text-gray-900">Imprint</h2>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Imprint (Impressum)</h2>
             <p class="mb-2 text-gray-800"><strong>Sugam Sanskrutik Troupe e.V.</strong></p>
-            <p class="mb-2 text-gray-800">Karlsruhe, Baden-Württemberg, Germany</p>
-            <p class="mb-4 text-gray-800"><strong>Contact:</strong><br>Email: info@susatka.de</p>
-        </div>
-    </div>
-    <div id="datenschutz-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
-            <button onclick="toggleModal('datenschutz-modal')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4 text-gray-900">Privacy Policy</h2>
-            <p class="mb-4 text-gray-800">We take your data protection seriously. This site does not use tracking cookies. Contact form submissions are processed securely via Netlify.</p>
+            <p class="mb-2 text-gray-800">Vertreten durch den Vorstand: Max Mustermann (1. Vorsitzender), Erika Mustermann (2. Vorsitzende)</p>
+            <p class="mb-2 text-gray-800">Hauptstraße 123, 76131 Karlsruhe, Germany</p>
+            <p class="mb-4 text-gray-800">Registergericht: Amtsgericht Karlsruhe<br>Registernummer: VR 12345 (Beispiel)</p>
+            <p class="text-gray-800"><strong>Kontakt:</strong><br>Telefon: +49 (0) 123 456789 (Beispiel)<br>Email: info@susatka.de</p>
+            <p class="mt-4 text-sm text-gray-600">Hinweis: Dies ist ein Platzhalter-Impressum. Bitte ersetzen Sie diese Angaben durch Ihre offiziellen Vereinsdaten vor der Veröffentlichung.</p>
         </div>
     </div>
 
+    <!-- DATENSCHUTZ MODAL (POPUP) -->
+    <div id="datenschutz-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
+            <button onclick="toggleModal('datenschutz-modal')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Privacy Policy (Datenschutzerklärung)</h2>
+            <p class="mb-4 text-gray-800">Wir nehmen den Schutz Ihrer Daten sehr ernst. Da diese Seite keine Cookies speichert und Daten aus dem Kontaktformular nur zur Bearbeitung Ihrer Anfrage genutzt werden, halten wir den Datenverkehr minimal.</p>
+            <p class="mb-2 text-gray-800"><strong>Verantwortliche Stelle:</strong> Der Vorstand des Sugam Sanskrutik Troupe e.V. (Anschrift wie im Impressum).</p>
+            <p class="text-gray-800">Sie haben jederzeit das Recht auf kostenlose Auskunft über Ihre bei uns gespeicherten Daten. Für weitere Details zur Datenerhebung und -verarbeitung wenden Sie sich bitte an uns.</p>
+            <p class="mt-4 text-sm text-gray-600">Hinweis: Dies ist eine vereinfachte Datenschutzerklärung. Bitte konsultieren Sie einen rechtlichen Berater, um eine vollständige und rechtskonforme Erklärung für Ihren Verein zu erstellen, insbesondere wenn Sie Kontaktformulare oder andere Datenverarbeitungsmechanismen nutzen.</p>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR MOBILE MENU AND MODALS -->
     <script>
+        // Toggle mobile menu dropdown
         const menuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        menuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });
-        function toggleModal(modalId) { document.getElementById(modalId).classList.toggle('hidden'); }
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Toggle legal popups (Modals)
+        function toggleModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
     </script>
+
 </body>
 </html>

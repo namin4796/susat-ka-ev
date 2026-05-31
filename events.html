@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events - Sugam Sanskrutik Troupe e.V.</title>
+    <!-- Tailwind CSS for modern, responsive styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for clean icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
+    <!-- NAVIGATION BAR (Same as index.html) -->
     <nav class="bg-white shadow-md sticky top-0 z-50">
-        <!-- NAV CONTENT -->
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
+                <!-- Logo / Name -->
                 <div class="flex-shrink-0 flex items-center">
                     <span class="text-xl font-bold text-amber-600"><i class="fa-solid fa-users mr-2"></i>Sugam Sanskrutik Troupe e.V.</span>
                 </div>
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 font-medium">
                     <a href="index.html" class="text-gray-600 hover:text-amber-600 transition">Home</a>
                     <a href="about.html" class="text-gray-600 hover:text-amber-600 transition">About Us</a>
@@ -23,11 +27,15 @@
                     <a href="membership.html" class="text-gray-600 hover:text-amber-600 transition">Membership</a>
                     <a href="contact.html" class="text-gray-600 hover:text-amber-600 transition">Contact</a>
                 </div>
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-amber-600 focus:outline-none"><i class="fa-solid fa-bars text-2xl"></i></button>
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-amber-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
                 </div>
             </div>
         </div>
+        <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-4 space-y-2">
             <a href="index.html" class="block text-gray-600 hover:text-amber-600 py-2">Home</a>
             <a href="about.html" class="block text-gray-600 hover:text-amber-600 py-2">About Us</a>
@@ -37,25 +45,26 @@
         </div>
     </nav>
 
+    <!-- MAIN CONTENT -->
     <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full">
         <section class="py-8">
             <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">News & Upcoming Events</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
                     <div class="bg-amber-100 text-amber-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
-                        <span class="text-2xl font-bold">24-26</span>
-                        <span class="text-sm uppercase tracking-wide">July</span>
+                        <span class="text-2xl font-bold">15</span>
+                        <span class="text-sm uppercase tracking-wide">Jun</span>
                     </div>
                     <div class="p-6">
                         <span class="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded">Event</span>
-                        <h3 class="text-xl font-bold mt-2 mb-2">Our Grand Indian Summer Days 2026</h3>
+                        <h3 class="text-xl font-bold mt-2 mb-2">Our Grand Summer Festival 2026</h3>
                         <p class="text-gray-600 text-sm">Celebrate with us! Enjoy Indian delicacies, cultural performances, and a great program for kids. Starting at 2:00 PM in Karlsruhe.</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
                     <div class="bg-orange-100 text-orange-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
-                        <span class="text-2xl font-bold">29</span>
-                        <span class="text-sm uppercase tracking-wide">March</span>
+                        <span class="text-2xl font-bold">02</span>
+                        <span class="text-sm uppercase tracking-wide">May</span>
                     </div>
                     <div class="p-6">
                         <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Internal</span>
@@ -67,9 +76,12 @@
         </section>
     </main>
 
+    <!-- FOOTER (Same as index.html) -->
     <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-sm mt-auto">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <div>&copy; 2026 Sugam Sanskrutik Troupe e.V. All rights reserved.</div>
+            <div>
+                &copy; 2026 Sugam Sanskrutik Troupe e.V. All rights reserved.
+            </div>
         </div>
     </footer>
     <script>
