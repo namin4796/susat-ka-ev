@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuSaT Ka e.V. - Moving Forward Together</title>
+    <!-- Tailwind CSS for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for clean icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo / Name -->
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-xl font-bold text-amber-600"><i class="fa-solid fa-users mr-2"></i> SuSaT Ka
+                        e.V.</span>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="index.html" class="text-gray-600 hover:text-amber-600 transition">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-amber-600 transition">About Us</a>
+                    <a href="events.html" class="text-gray-600 hover:text-amber-600 transition">Current Events</a>
+                    <a href="membership.html" class="text-gray-600 hover:text-amber-600 transition">Membership</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-amber-600 transition">Contact</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-amber-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-4 space-y-2">
+            <a href="index.html" class="block text-gray-600 hover:text-amber-600 py-2">Home</a>
+            <a href="about.html" class="block text-gray-600 hover:text-amber-600 py-2">About Us</a>
+            <a href="events.html" class="block text-gray-600 hover:text-amber-600 py-2">Current Events</a>
+            <a href="membership.html" class="block text-gray-600 hover:text-amber-600 py-2">Membership</a>
+            <a href="contact.html" class="block text-gray-600 hover:text-amber-600 py-2">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="home" class="bg-gradient-to-r md:py-24 from-emerald-500 to-teal-600 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Bringing the Indian and German tricolors together</h1>
+            <p class="text-lg md:text-xl text-emerald-100 mb-8">Welcome to SuSaT Ka e.V., a group of friends for
+                friends. We celebrate Indian culture, foster community integration, and build cultural bridges in
+                Karlsruhe</p>
+            <div class="space-x-4">
+                <a href="#mitgliedschaft"
+                    class="bg-white text-amber-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-amber-50 transition inline-block">Together</a>
+                <a href="#ueber-uns"
+                    class="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition inline-block">Experience
+                    More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full">
+
+        <!-- ABOUT SECTION -->
+        <section id="ueber-uns" class="py-8 scroll-mt-20">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About SuSaT</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                    <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-heart"></i></div>
+                    <h3 class="text-xl font-semibold mb-2">Our Mission</h3>
+                    <p class="text-gray-600">We are committed to social projects and community cohesion in our region.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                    <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-bullseye"></i></div>
+                    <h3 class="text-xl font-semibold mb-2">Our Goal</h3>
+                    <p class="text-gray-600">Through regular events, workshops and donation campaigns, we want to
+                        achieve sustainable changes.</p>
+                </div>
+                nachhaltige Veränderungen bewirken.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-hands-holding-child"></i></div>
+                <h3 class="text-xl font-semibold mb-2">Community</h3>
+                <p class="text-gray-600">Egal welches Alter oder welche Herkunft – bei uns findet jeder einen Platz
+                    und ein offenes Ohr.</p>
+            </div>
+            </div>
+        </section>
+
+        <hr class="my-16 border-gray-200">
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-sm mt-auto">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                &copy; 2026 SuSaT Ka e.V. All rights reserved.
+            </div>
+            <div class="flex space-x-6">
+                <a href="#impressum" onclick="toggleModal('impressum-modal')"
+                    class="hover:text-white transition">Imprint</a>
+                <a href="#datenschutz" onclick="toggleModal('datenschutz-modal')"
+                    class="hover:text-white transition">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- IMPRESSUM MODAL (POPUP) -->
+    <div id="impressum-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
+            <button onclick="toggleModal('impressum-modal')"
+                class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4">Imprint</h2>
+            <p class="mb-2"><strong>SuSaT Ka e.V.</strong></p>
+            <p class="mb-2">Represented by the board: Vishal Raut (1. President), Prasad Waje (2.
+                President)</p>
+            <p class="mb-2">Scheffelstraße 17A, 76135 Karlsruhe</p>
+            <p class="mb-4">Register court: District Court Musterstadt<br>Registration number: VR 12345</p>
+            <p><strong>Contact:</strong><br>Phone: +49 (0) 123 456789<br>Email: info@musterverein-ev.de</p>
+        </div>
+    </div>
+
+    <!-- DATENSCHUTZ MODAL (POPUP) -->
+    <div id="datenschutz-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
+            <button onclick="toggleModal('datenschutz-modal')"
+                class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4">Privacy Policy Declaration</h2>
+            <p class="mb-4">We take the protection of your data very seriously. Since this site does not store any
+                cookies and
+                data from the contact form is only used for processing your request, we keep the data traffic minimal.
+            </p>
+            <p class="mb-2"><strong>Responsible Authority:</strong> The board of directors of SuSaT Ka e.V. (Address as
+                indicated in the imprint).</p>
+            <p>You have the right at any time to obtain free information about your stored data.</p>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR MOBILE MENU AND MODALS -->
+    <script>
+        // Toggle mobile menu dropdown
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Toggle legal popups (Modals)
+        function toggleModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+    </script>
+
+</body>
+
+</html>

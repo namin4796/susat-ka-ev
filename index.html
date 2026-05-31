@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuSaT Ka e.V. - Gemeinsam Stark</title>
+    <title>SuSaT Ka e.V. - Moving Forward Together</title>
     <!-- Tailwind CSS for modern, responsive styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for clean icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
     <!-- NAVIGATION BAR -->
@@ -17,19 +19,20 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo / Name -->
                 <div class="flex-shrink-0 flex items-center">
-                    <span class="text-xl font-bold text-emerald-600"><i class="fa-solid fa-users mr-2"></i> SuSaT Ka e.V.</span>
+                    <span class="text-xl font-bold text-amber-600"><i class="fa-solid fa-users mr-2"></i> SuSaT Ka
+                        e.V.</span>
                 </div>
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8 font-medium">
-                    <a href="#home" class="text-gray-600 hover:text-emerald-600 transition">Home</a>
-                    <a href="#ueber-uns" class="text-gray-600 hover:text-emerald-600 transition">Über uns</a>
-                    <a href="#aktuelles" class="text-gray-600 hover:text-emerald-600 transition">Aktuelles</a>
-                    <a href="#mitgliedschaft" class="text-gray-600 hover:text-emerald-600 transition">Mitgliedschaft</a>
-                    <a href="#kontakt" class="text-gray-600 hover:text-emerald-600 transition">Kontakt</a>
+                    <a href="index.html" class="text-gray-600 hover:text-amber-600 transition">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-amber-600 transition">About Us</a>
+                    <a href="events.html" class="text-gray-600 hover:text-amber-600 transition">Current Events</a>
+                    <a href="membership.html" class="text-gray-600 hover:text-amber-600 transition">Membership</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-amber-600 transition">Contact</a>
                 </div>
                 <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-emerald-600 focus:outline-none">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-amber-600 focus:outline-none">
                         <i class="fa-solid fa-bars text-2xl"></i>
                     </button>
                 </div>
@@ -37,11 +40,11 @@
         </div>
         <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 px-4 pt-2 pb-4 space-y-2">
-            <a href="#home" class="block text-gray-600 hover:text-emerald-600 py-2">Home</a>
-            <a href="#ueber-uns" class="block text-gray-600 hover:text-emerald-600 py-2">Über uns</a>
-            <a href="#aktuelles" class="block text-gray-600 hover:text-emerald-600 py-2">Aktuelles</a>
-            <a href="#mitgliedschaft" class="block text-gray-600 hover:text-emerald-600 py-2">Mitgliedschaft</a>
-            <a href="#kontakt" class="block text-gray-600 hover:text-emerald-600 py-2">Kontakt</a>
+            <a href="index.html" class="block text-gray-600 hover:text-amber-600 py-2">Home</a>
+            <a href="about.html" class="block text-gray-600 hover:text-amber-600 py-2">About Us</a>
+            <a href="events.html" class="block text-gray-600 hover:text-amber-600 py-2">Current Events</a>
+            <a href="membership.html" class="block text-gray-600 hover:text-amber-600 py-2">Membership</a>
+            <a href="contact.html" class="block text-gray-600 hover:text-amber-600 py-2">Contact</a>
         </div>
     </nav>
 
@@ -49,10 +52,15 @@
     <header id="home" class="bg-gradient-to-r md:py-24 from-emerald-500 to-teal-600 text-white py-16 px-4 text-center">
         <div class="max-w-4xl mx-auto">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Bringing the Indian and German tricolors together</h1>
-                <p class="text-lg md:text-xl text-emerald-100 mb-8">Welcome to SuSaT Ka e.V., a group of friends for friends, interested in celebrating the Indian culture in Karlsruhe.</p>
+            <p class="text-lg md:text-xl text-emerald-100 mb-8">Welcome to SuSaT Ka e.V., a group of friends for
+                friends. We celebrate Indian culture, foster community integration, and build cultural bridges in
+                Karlsruhe</p>
             <div class="space-x-4">
-                <a href="#mitgliedschaft" class="bg-white text-emerald-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-emerald-50 transition inline-block">Mitmachen</a>
-                <a href="#ueber-uns" class="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition inline-block">Mehr erfahren</a>
+                <a href="#mitgliedschaft"
+                    class="bg-white text-amber-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-amber-50 transition inline-block">Together</a>
+                <a href="#ueber-uns"
+                    class="border border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/10 transition inline-block">Experience
+                    More</a>
             </div>
         </div>
     </header>
@@ -62,23 +70,28 @@
 
         <!-- ABOUT SECTION -->
         <section id="ueber-uns" class="py-8 scroll-mt-20">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Über unseren Verein</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About SuSaT</h2>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
                     <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-heart"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Unsere Mission</h3>
-                    <p class="text-gray-600">Wir setzen uns ehrenamtlich für soziale Projekte und den Zusammenhalt in unserer Region ein.</p>
+                    <h3 class="text-xl font-semibold mb-2">Our Mission</h3>
+                    <p class="text-gray-600">We are committed to social projects and community cohesion in our region.
+                    </p>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
                     <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-bullseye"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Unsere Ziele</h3>
-                    <p class="text-gray-600">Durch regelmäßige Events, Workshops und Spendenaktionen wollen wir nachhaltige Veränderungen bewirken.</p>
+                    <h3 class="text-xl font-semibold mb-2">Our Goal</h3>
+                    <p class="text-gray-600">Through regular events, workshops and donation campaigns, we want to
+                        achieve sustainable changes.</p>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
-                    <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-hands-holding-child"></i></div>
-                    <h3 class="text-xl font-semibold mb-2">Gemeinschaft</h3>
-                    <p class="text-gray-600">Egal welches Alter oder welche Herkunft – bei uns findet jeder einen Platz und ein offenes Ohr.</p>
-                </div>
+                nachhaltige Veränderungen bewirken.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div class="text-emerald-500 text-4xl mb-4"><i class="fa-solid fa-hands-holding-child"></i></div>
+                <h3 class="text-xl font-semibold mb-2">Community</h3>
+                <p class="text-gray-600">Egal welches Alter oder welche Herkunft – bei uns findet jeder einen Platz
+                    und ein offenes Ohr.</p>
+            </div>
             </div>
         </section>
 
@@ -86,30 +99,39 @@
 
         <!-- NEWS SECTION -->
         <section id="aktuelles" class="py-8 scroll-mt-20">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Aktuelles & Termine</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Current Events</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- News Item 1 -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
-                    <div class="bg-emerald-100 text-emerald-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
+                <div
+                    class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+                    <div
+                        class="bg-amber-100 text-emerald-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
                         <span class="text-2xl font-bold">24-26</span>
-                        <span class="text-sm uppercase tracking-wide">Juli</span>
+                        <span class="text-sm uppercase tracking-wide">July</span>
                     </div>
                     <div class="p-6">
-                        <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Event</span>
+                        <span
+                            class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Event</span>
                         <h3 class="text-xl font-bold mt-2 mb-2">Our beloved ISD 2026!</h3>
-                        <p class="text-gray-600 text-sm">Feiern Sie mit uns! Es gibt Grillgut, kühle Getränke und ein tolles Programm für Kinder. Ab 14:00 Uhr auf dem Vereinsgelände.</p>
+                        <p class="text-gray-600 text-sm">As an annual tradition, we are excited to invite you to our
+                            upcoming event, ISD 2026! Join us from 24-26 July.
+                            for a wonderful Maharashtrian folk experience, filled with traditional music and dance.</p>
                     </div>
                 </div>
                 <!-- News Item 2 -->
-                <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
-                    <div class="bg-teal-100 text-teal-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
+                <div
+                    class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+                    <div
+                        class="bg-teal-100 text-teal-700 p-6 flex flex-col justify-center items-center sm:w-32 text-center shrink-0">
                         <span class="text-2xl font-bold">02</span>
-                        <span class="text-sm uppercase tracking-wide">Mai</span>
+                        <span class="text-sm uppercase tracking-wide">May</span>
                     </div>
                     <div class="p-6">
-                        <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">Internt</span>
-                        <h3 class="text-xl font-bold mt-2 mb-2">Mitgliederversammlung Ergebnisse</h3>
-                        <p class="text-gray-600 text-sm">Der neue Vorstand wurde erfolgreich gewählt. Wir danken allen Mitgliedern für das zahlreiche Erscheinen und das Vertrauen.</p>
+                        <span
+                            class="bg-amber-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">Intern</span>
+                        <h3 class="text-xl font-bold mt-2 mb-2">Membership Meeting Results</h3>
+                        <p class="text-gray-600 text-sm">The new board was successfully elected. We thank all
+                            members for their attendance and trust.</p>
                     </div>
                 </div>
             </div>
@@ -118,24 +140,26 @@
         <hr class="my-16 border-gray-200">
 
         <!-- MEMBERSHIP SECTION -->
-        <section id="mitgliedschaft" class="py-8 scroll-mt-20 bg-emerald-50 rounded-2xl p-8 md:p-12 text-center">
-            <h2 class="text-3xl font-bold mb-4 text-gray-900">Werde Teil des Vereins</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto mb-8">Unsere Arbeit wird durch Menschen wie dich überhaupt erst möglich. Unterstütze uns als aktives Mitglied oder als Fördermitglied.</p>
+        <section id="mitgliedschaft" class="py-8 scroll-mt-20 bg-amber-50 rounded-2xl p-8 md:p-12 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-gray-900">Become a Member of the Association</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8">Our work is only possible through people like you. Support
+                us as an active member or as a supporting member.</p>
             <div class="inline-flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 w-64">
-                    <span class="block text-sm text-gray-500 uppercase">Regulär</span>
+                    <span class="block text-sm text-gray-500 uppercase">Regular</span>
                     <span class="text-3xl font-bold text-gray-900">20 €</span>
-                    <span class="text-gray-500 text-sm">/ Jahr</span>
+                    <span class="text-gray-500 text-sm">/ Year</span>
                 </div>
                 <div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 w-64">
-                    <span class="block text-sm text-gray-500 uppercase">Ermäßigt</span>
+                    <span class="block text-sm text-gray-500 uppercase">Reduced</span>
                     <span class="text-3xl font-bold text-gray-900">15 €</span>
-                    <span class="text-gray-500 text-sm">/ Jahr</span>
+                    <span class="text-gray-500 text-sm">/ Year</span>
                 </div>
             </div>
             <div class="mt-8">
-                <a href="antrag.pdf" download class="bg-emerald-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-emerald-700 transition inline-block">
-                    <i class="fa-solid fa-file-pdf mr-2"></i>Mitgliedsantrag herunterladen (PDF)
+                <a href="antrag.pdf" download
+                    class="bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-amber-700 transition inline-block">
+                    <i class="fa-solid fa-file-pdf mr-2"></i>Membership Application Download (PDF)
                 </a>
             </div>
         </section>
@@ -145,26 +169,28 @@
         <!-- CONTACT SECTION -->
         <section id="kontakt" class="py-8 scroll-mt-20 grid md:grid-cols-2 gap-12">
             <div>
-                <h2 class="text-3xl font-bold mb-6 text-gray-900">Kontaktieren Sie uns</h2>
-                <p class="text-gray-600 mb-6">Haben Sie Fragen zu unserer Arbeit, Kooperationen oder der Mitgliedschaft? Schreiben Sie uns einfach eine Nachricht oder rufen Sie uns an.</p>
+                <h2 class="text-3xl font-bold mb-6 text-gray-900">Contact Us</h2>
+                <p class="text-gray-600 mb-6">Do you have questions about our work, collaborations or membership?
+                    Write us a message or call us.</p>
                 <div class="space-y-4">
                     <div class="flex items-center text-gray-600">
-                        <i class="fa-solid fa-location-dot text-emerald-600 text-xl w-8"></i>
+                        <i class="fa-solid fa-location-dot text-amber-600 text-xl w-8"></i>
                         <span>Scheffelstrasse 17A, 76135 Karlsruhe</span>
                     </div>
                     <div class="flex items-center text-gray-600">
-                        <i class="fa-solid fa-phone text-emerald-600 text-xl w-8"></i>
+                        <i class="fa-solid fa-phone text-amber-600 text-xl w-8"></i>
                         <span>+49 (0) 123 456789</span>
                     </div>
                     <div class="flex items-center text-gray-600">
-                        <i class="fa-solid fa-envelope text-emerald-600 text-xl w-8"></i>
+                        <i class="fa-solid fa-envelope text-amber-600 text-xl w-8"></i>
                         <span>info@susatka-ev.de</span>
                     </div>
                 </div>
             </div>
             <!-- Simple Form Contact -->
-            <form data-netlify="true" name="kontakt-form" method="POST" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 space-y-4">
-            <!--
+            <form data-netlify="true" name="kontakt-form" method="POST"
+                class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 space-y-4">
+                <!--
             <form action="https://formspree.io/f/YOUR_ID_HERE" method="POST" class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 space-y-4">
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
@@ -178,7 +204,7 @@
                     <label class="block text-sm font-medium text-gray-700 mb-1">Nachricht</label>
                     <textarea name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-emerald-500 focus:border-emerald-500"></textarea>
                 </div>
-                <button type="submit" class="w-full bg-emerald-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-emerald-700 transition">Nachricht senden</button>
+                <button type="submit" class="w-full bg-amber-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-amber-700 transition">Nachricht senden</button>
             </form> -->
         </section>
 
@@ -188,11 +214,13 @@
     <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-sm mt-auto">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
-                &copy; 2026 Musterverein e.V. Alle Rechte vorbehalten.
+                &copy; 2026 SuSaT Ka e.V. All rights reserved.
             </div>
             <div class="flex space-x-6">
-                <a href="#impressum" onclick="toggleModal('impressum-modal')" class="hover:text-white transition">Impressum</a>
-                <a href="#datenschutz" onclick="toggleModal('datenschutz-modal')" class="hover:text-white transition">Datenschutz</a>
+                <a href="#impressum" onclick="toggleModal('impressum-modal')"
+                    class="hover:text-white transition">Imprint</a>
+                <a href="#datenschutz" onclick="toggleModal('datenschutz-modal')"
+                    class="hover:text-white transition">Privacy Policy</a>
             </div>
         </div>
     </footer>
@@ -200,24 +228,31 @@
     <!-- IMPRESSUM MODAL (POPUP) -->
     <div id="impressum-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
-            <button onclick="toggleModal('impressum-modal')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4">Impressum</h2>
-            <p class="mb-2"><strong>Musterverein e.V.</strong></p>
-            <p class="mb-2">Vertreten durch den Vorstand: Max Mustermann (1. Vorsitzender), Erika Mustermann (2. Vorsitzende)</p>
-            <p class="mb-2">Hauptstraße 42, 12345 Musterstadt</p>
-            <p class="mb-4">Registergericht: Amtsgericht Musterstadt<br>Registernummer: VR 12345</p>
-            <p><strong>Kontakt:</strong><br>Telefon: +49 (0) 123 456789<br>E-Mail: info@musterverein-ev.de</p>
+            <button onclick="toggleModal('impressum-modal')"
+                class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4">Imprint</h2>
+            <p class="mb-2"><strong>SuSaT Ka e.V.</strong></p>
+            <p class="mb-2">Represented by the board: Vishal Raut (1. President), Prasad Waje (2.
+                President)</p>
+            <p class="mb-2">Scheffelstraße 17A, 76135 Karlsruhe</p>
+            <p class="mb-4">Register court: District Court Musterstadt<br>Registration number: VR 12345</p>
+            <p><strong>Contact:</strong><br>Phone: +49 (0) 123 456789<br>Email: info@musterverein-ev.de</p>
         </div>
     </div>
 
     <!-- DATENSCHUTZ MODAL (POPUP) -->
     <div id="datenschutz-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div class="bg-white rounded-xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-6 relative">
-            <button onclick="toggleModal('datenschutz-modal')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4">Datenschutzerklärung</h2>
-            <p class="mb-4">Wir nehmen den Schutz Ihrer Daten sehr ernst. Da diese Seite keine Cookies speichert und Daten aus dem Kontaktformular nur zur Bearbeitung Ihrer Anfrage genutzt werden, halten wir den Datenverkehr minimal.</p>
-            <p class="mb-2"><strong>Verantwortliche Stelle:</strong> Der Vorstand des Musterverein e.V. (Anschrift wie im Impressum).</p>
-            <p>Sie haben jederzeit das Recht auf kostenlose Auskunft über Ihre bei uns gespeicherten Daten.</p>
+            <button onclick="toggleModal('datenschutz-modal')"
+                class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl">&times;</button>
+            <h2 class="text-2xl font-bold mb-4">Privacy Policy Declaration</h2>
+            <p class="mb-4">We take the protection of your data very seriously. Since this site does not store any
+                cookies and
+                data from the contact form is only used for processing your request, we keep the data traffic minimal.
+            </p>
+            <p class="mb-2"><strong>Responsible Authority:</strong> The board of directors of SuSaT Ka e.V. (Address as
+                indicated in the imprint).</p>
+            <p>You have the right at any time to obtain free information about your stored data.</p>
         </div>
     </div>
 
@@ -244,4 +279,5 @@
     </script>
 
 </body>
+
 </html>
